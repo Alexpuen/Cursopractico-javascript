@@ -1,0 +1,53 @@
+header{
+    background-color:black;
+    color: white;
+    font-family: arial;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+        color: white;
+        font-size: 40px;
+}
+#Cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#Cuadrado {
+    margin: 0 auto;
+    background-color: green;
+    padding: 0 20px 20px 20px;
+    width: 400px;
+    height: 350px;
+    -webkit-border-radius: 7px;
+  }
+  #Triangulo {
+    margin: 0 auto;
+    background-color: green;
+    padding: 0 20px 20px 20px;
+    width: 600px;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-border-radius: 7px;
+  }
+  #Circulo {
+    margin: 0 auto;
+    background-color: green ;
+    width: 400px;
+    height: 350px;
+    padding: 0 20px 20px 20px;
+    -webkit-border-radius: 7px;
+  }
+  footer{
+      background-color: black;
+      color: white;
+  }
